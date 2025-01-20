@@ -19,7 +19,7 @@ class WeatherModel with _$WeatherModel {
     required Main main,
     required int visibility,
     required Wind wind,
-    Rain? rain, // Made nullable, as it's not always present
+    Rain? rain,
     required Clouds clouds,
     required int dt,
     required Sys sys,
